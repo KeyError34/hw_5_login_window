@@ -1,0 +1,14 @@
+@import "../../styles/variables";
+@import "../../styles/fanctions";
+.loginContainer{
+    box-sizing: border-box;
+    height: 175px; 
+    width: 446px;
+    border: 1px solid $primary-color-green;
+    border-radius: 65px;
+    padding: 36px;
+    @include flex( row,  center,  center,  nowrap,15px);
+    &:hover{
+        transform: translateZ(5px);
+    }
+}

@@ -1,0 +1,10 @@
+@import "../../styles/variables";
+
+.icon{
+    fill: $primary-color-green;
+  
+    transition: fill 0.3s ease, transform 0.3s ease;
+    &:hover{fill: $primary-color-blue;
+      transform: translateY(-5px);}
+  }
+  

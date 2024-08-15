@@ -1,0 +1,45 @@
+@import "../../styles/fanctions";
+@import "../../styles/variables";
+
+.loginPageContainer {
+  background-color: $primary-color-black;
+  padding: 55px 35px;
+  max-height: 100%;
+}
+.loginContainer {
+  @include flex(column, center, center, nowrap, 15px);
+  perspective: 1000px;
+}
+.logoContainer {
+  width: 140px;
+  height: 45px;
+  padding-bottom: 111px;
+//   position: relative;
+ 
+}
+
+.imgCont{
+     transition: transform 0.3s ease-in-out;
+   &:hover {
+    border: 1px solid $primary-color-green;
+    transform: translateZ(1px);
+    padding: 10px;
+    border-radius: 10px;
+    
+  }
+}
+
+.loginContainer p,
+.loginContainer h1 {
+  color: $primary-color-green;
+  text-align: center;
+}
+.loginContainer h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+.loginContainer p {
+  font-size: 32px;
+  font-weight: 700;
+//   text-align: center;
+}
